@@ -21,9 +21,9 @@ public class HelloWorldJavaFXMavenHW3 extends Application {
     		System.out.print("Dayanna says: Hello World!\n");
     	}
         
-        primaryStage.setTitle("Dayanna Bay Hello World Fall 2024");
+        primaryStage.setTitle("In class GitHub activity");
         Button btn = new Button();
-        btn.setText("Display: 'Dayanna says: Hello World!'");
+        btn.setText("Dayanna’s second commit");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("Dayanna says: Hello World!");
